@@ -1,14 +1,3 @@
-"""
-=============================================================================
-  CROP RECOMMENDATION SYSTEM — STREAMLIT APP  (Steps 9 & 10)
-  Steps covered:
-    9.  Deployment  — user inputs, prediction, visualization
-    10. Final output — recommended crop, confidence score, explanation
-
-  Run:  streamlit run app.py
-  Requires:  crop_model_artifacts/  folder produced by pipeline.py
-=============================================================================
-"""
 
 import os
 import json
