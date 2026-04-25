@@ -1,25 +1,3 @@
-"""
-=============================================================================
-  CROP RECOMMENDATION SYSTEM — END-TO-END PIPELINE  (Steps 1 – 8)
-  Dataset : Crop_recommendation.csv  (Kaggle — Atharva Ingle)
-            https://www.kaggle.com/datasets/atharvaingle/crop-recommendation-dataset
-  Columns : N, P, K, temperature, humidity, ph, rainfall, label
-  Crops   : 22  |  Rows : 2 200
-
-  Steps covered:
-    1. Data loading & dataset features
-    2. Data preprocessing (missing-value handling, encoding, scaling)
-    3. Exploratory Data Analysis
-    4. Train-test split
-    5. Model training  (Random Forest + ANN/MLP)
-    6. Model evaluation (accuracy, confusion matrix, classification report)
-    7. Explainable AI  (SHAP + LIME)
-    8. Model saving    (joblib)
-
-  Run:  python pipeline.py
-  Then: streamlit run app.py
-=============================================================================
-"""
 
 import os
 import sys
